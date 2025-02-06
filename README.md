@@ -1,29 +1,20 @@
-# Polynomial Secret Sharing
+# README: Setting Up Your Environment with Pipenv
 
-This project provides a solution for the polynomial secret sharing problem using Lagrange Interpolation. Given a set of roots, the constant term `c` of a polynomial is computed.
+## Prerequisite: Install Pipenv
+Follow the official Pipenv installation guide to set up Pipenv on your system:  
+[Install Pipenv Documentation](https://pipenv.pypa.io/en/latest/installation.html)
 
-## Setup and Usage
+---
 
-### Prerequisites
+## Steps to Set Up the Environment
 
-- [Node.js](https://nodejs.org) (version 12 or higher)
+### Install Required Packages
+Run the following commands in your terminal (assuming Pipenv is already installed):
 
-### Steps to Run
+```bash
+pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf
+pipenv install huggingface_hub
+pipenv install streamlit
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/buntyanvi/Polynomial_Problem
-   cd polynomial_Problem
 
-2. **Install dependencies (if any):**
-      ```bash
-      npm install
 
-3. **Run The Project:**
-      ```bash
-      npm start
-
-4. **Output**:
-   - TestCase1: The constant term (c) is: 3
-   - TestCase2: The constant term (c) is: 79836264059587
-   
